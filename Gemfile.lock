@@ -1,8 +1,9 @@
-PATH
-  remote: ~/dev/gitnesse
+GIT
+  remote: https://github.com/hybridgroup/gitnesse.git
+  revision: ca52c4c30a2a0953060571cddc8d6a32223394e2
   specs:
     gitnesse (0.0.1)
-      bundler (~> 1.2.1)
+      bundler
       gollum (~> 2.3.12)
 
 GEM

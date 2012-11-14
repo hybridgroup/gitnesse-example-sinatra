@@ -1,12 +1,5 @@
 require "bundler"
 Bundler.require(:default)
 
-namespace :gitnesse do
-  task :push do
-    Gitnesse.push
-  end
-
-  task :pull do
-    Gitnesse.pull
-  end
-end
+require "gitnesse/tasks"
+Gitnesse::Tasks.new
