@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/hybridgroup/gitnesse.git
-  revision: ca52c4c30a2a0953060571cddc8d6a32223394e2
+  revision: bc01a93d404bbea0d0aabb060f6323a2d495addd
+  branch: rails_rake_ready
   specs:
     gitnesse (0.0.1)
       bundler
