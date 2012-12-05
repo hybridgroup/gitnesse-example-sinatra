@@ -1,9 +1,8 @@
 GIT
   remote: https://github.com/hybridgroup/gitnesse.git
-  revision: bc01a93d404bbea0d0aabb060f6323a2d495addd
-  branch: rails_rake_ready
+  revision: 0a368c0881af40b2a932b770ee175b45cbc57bd3
   specs:
-    gitnesse (0.0.1)
+    gitnesse (0.1.3)
       bundler
       gollum (~> 2.3.12)
 
@@ -55,7 +54,7 @@ GEM
       tilt (~> 1.3, >= 1.3.3)
     stringex (1.4.0)
     tilt (1.3.3)
-    useragent (0.4.13)
+    useragent (0.4.14)
     yajl-ruby (1.1.0)
 
 PLATFORMS
